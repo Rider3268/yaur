@@ -8,5 +8,5 @@ If you wish so, please add this entry into /etc/pacman.conf
 ```
 [yaur]
 SigLevel = Optional DatabaseOptional
-Server = https://raw.githubusercontent.com/Rider3268/yaur/main/any/
+Server = https://raw.githubusercontent.com/Rider3268/$repo/main/$arch
 ```
