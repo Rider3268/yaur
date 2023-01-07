@@ -2,7 +2,7 @@
 #
 # Script name: build-db.sh
 # Description: Script for rebuilding the database for yaur.
-# GitLab: https://github.com/Rider3268/yaur
+# GitHub: https://github.com/Rider3268/yaur
 # Contributors: Yura Shevchuk
 
 # Set with the flags "-e", "-u","-o pipefail" cause the script to fail
@@ -36,7 +36,7 @@ echo "###################################"
 ## -R: remove old package files when updating their entry
 # repo-add -s -n -R yaur.db.tar.gz *.pkg.tar.zst
 repo-add -n -R yaur.db.tar.gz *.pkg.tar.zst
-# Removing the symlinks because GitLab can't handle them.
+# Removing the symlinks because GitHub can't handle them.
 rm yaur.db
 # rm yaur.db.sig
 rm yaur.files
